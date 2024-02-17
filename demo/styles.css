@@ -1,0 +1,44 @@
+
+
+body{
+    background-image: url(background.jpg);
+    width: 85%;
+    height: 100vh; 
+    background-size: auto;
+    font-family: sans-serif;
+}
+
+table{
+    
+    margin-top: 50px;
+    width: 550px;
+    height: 250px;
+    font-weight: 700;
+    background-color: rgb(33, 132, 141);
+   
+}
+input[type=search]{
+    width: 160px;
+    padding: 8px 20px 8px 45px;
+    border: #fff solid 2px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    background-position: 2% 50%;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-image: url('search.svg');
+    background-color: transparent;
+    transition: 0.5s all ease-in-out;
+    filter: brightness(170%);
+}
+input[type=search]{
+    width: 350px;
+    background-color: #fff;
+    filter: brightness(170%);
+    margin-bottom: 40px;
+}
+label{
+    font-size: large;
+    font-weight: bold;
+}
